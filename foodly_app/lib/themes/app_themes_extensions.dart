@@ -18,6 +18,7 @@ TextStyle get underline => copyWith(decoration: TextDecoration.underline);
 TextStyle get ellipsis => copyWith(overflow: TextOverflow.ellipsis);
 
 TextStyle get white => copyWith(color: AppColors.white);
+TextStyle get gray => copyWith(color: AppColors.grayColor);
 TextStyle get mainColor => copyWith(color: AppColors.mainColor);
 TextStyle get secondaryColor => copyWith(color: AppColors.secondaryColor);
 }

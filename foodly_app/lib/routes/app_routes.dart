@@ -1,4 +1,5 @@
 import 'package:flutter/foundation.dart';
+import 'package:foodly_app/pages/onBoardingPage.dart';
 import 'package:foodly_app/pages/splashPage.dart';
 import 'package:foodly_app/routes/app_route_name.dart';
 import 'package:foodly_app/routes/app_route_paths.dart';
@@ -9,7 +10,11 @@ class AppRoutes{
     GoRoute(path: AppRoutePaths.splashPage,
     name: AppRouteName.splashPage.name,
     builder: (context, state) => Splashpage(),
-    )
+    ),
+    GoRoute(path: AppRoutePaths.Onboardingpage,
+    name: AppRouteName.Onboardingpage.name,
+    builder: (context, state) => Onboardingpage(),
+    ),
   ];
   // variabel location terserah mau dinamain apa
   static GoRouter setupRouter([String? location]){

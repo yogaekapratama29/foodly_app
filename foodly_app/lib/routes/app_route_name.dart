@@ -1,3 +1,4 @@
 enum AppRouteName{
   splashPage,
+  Onboardingpage,
 }
