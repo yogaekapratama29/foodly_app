@@ -19,6 +19,7 @@ TextStyle get ellipsis => copyWith(overflow: TextOverflow.ellipsis);
 
 TextStyle get white => copyWith(color: AppColors.white);
 TextStyle get gray => copyWith(color: AppColors.grayColor);
+TextStyle get gray2 => copyWith(color: AppColors.gray2Color);
 TextStyle get mainColor => copyWith(color: AppColors.mainColor);
 TextStyle get secondaryColor => copyWith(color: AppColors.secondaryColor);
 }
